@@ -5,7 +5,7 @@
     <title>Sample Data Privacy Assessment Questionnaire</title>
   </head>
   <body>
-    <h1>Data Privacy Assessment Questionnaire</h1>
+    <h1>Sample Data Privacy Assessment Questionnaire</h1>
     <form>
       <h2>General Information</h2>
       <p>
