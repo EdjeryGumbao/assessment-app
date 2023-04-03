@@ -38,38 +38,43 @@
         <li>
             <a href="#">
                 <i class="bx bxs-user-account"> </i>
-                <span class="nav-item">User account</span>
+                <span class="nav-item">User</span>
             </a>
-            <span class="tooltip">User account</span>
-        </li>        
+            <span class="tooltip">User</span>
+        </li>  
+
         <li>
             <a href="#">
                 <i class="bx bx-support"> </i>
-                <span class="nav-item">Help and support</span>
+                <span class="nav-item">Support</span>
             </a>
-            <span class="tooltip">Help and support</span>
-        </li>        
+            <span class="tooltip">Support</span>
+        </li>      
+
         <li>
             <a href="#">
                 <i class="bx bxs-landmark"> </i>
-                <span class="nav-item">Privacy policy</span>
+                <span class="nav-item">PrivacyPolicy</span>
             </a>
-            <span class="tooltip">Privacy Policy</span>
-        </li>       
+            <span class="tooltip">PrivacyPolicy</span>
+        </li> 
+
          <li>
             <a href="#">
                 <i class="bx bxs-wrench"> </i>
-                <span class="nav-item">Data assessment tools</span>
+                <span class="nav-item">AssessmentTools</span>
             </a>
-            <span class="tooltip">Data assessment tools</span>
-        </li>       
+            <span class="tooltip">AssessmentTools</span>
+        </li>     
+
          <li>
             <a href="#">
                 <i class="bx bx-comment-detail"> </i>
                 <span class="nav-item">Forums</span>
             </a>
             <span class="tooltip">Forums</span>
-        </li>               
+        </li> 
+                      
     </ul>
 </div>
 
