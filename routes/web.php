@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DataController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +15,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Test');
+    return view('dashboard');
 });
 
-Route::get('/testTool', function () {
-    return view('testquestionnaire');
+Route::get('/', [DataController::class, 'home']);
+Route::get('/dashboard', [DataController::class, 'home']);
+
+Route::get('/table', function () {
+    return view('table');
 });
+
+Route::get('/set', [DataController::class, 'showData']);
+Route::post('storeData', [DataController::class, 'storeData']);
+Route::post('displaySet', [DataController::class, 'displaySet']);
+Route::post('createTable', [DataController::class, 'createTable']);

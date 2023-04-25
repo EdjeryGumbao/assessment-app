@@ -1,0 +1,82 @@
+.dashboard-button {
+    background-color: #12171e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .preview-button {
+    background-color: #12171e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  /* Style the content */
+  .content {
+    display: default;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #f1f1f1;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  /* Style the input field */
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+  }
+
+  /* Style the "Add Question" button */
+  button[type=submit] {
+    background-color: #12171e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+
+  /* Change background color of "Add Question" button on hover */
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the question list */
+  .left {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
