@@ -128,11 +128,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 @endif
 
 <div class="form-popup" id="myForm">
-  <form action="createTable" class="form-container" method="POST">
+  <form action="createSet" class="form-container" method="POST">
     @csrf
     <h2>What is the name of the set?</h2>
     <input type="text" name="set_name" required>
-
     <button type="submit" class="btn">Submit</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>

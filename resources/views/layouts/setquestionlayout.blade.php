@@ -5,8 +5,6 @@
     </head>
     <body>
         <a href="{{ url('dashboard') }}" class="dashboard-button">Dashboard</a>
-        <button class="preview-button">Preview</button>
-
 
         <div id="AddQuestion" class="content">
             <h3>Add Question</h3>
@@ -17,5 +15,6 @@
                 @yield('questions')
             </div>
         </div>
+        @yield('buttons')
     </body>
 </html>
