@@ -70,7 +70,7 @@ return [
         //     'table' => 'users',
         // ],
     ],
-
+    
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
@@ -111,5 +111,6 @@ return [
     */
 
     'password_timeout' => 10800,
+    #'remember' => true, // to enable 'remember me' function
 
 ];

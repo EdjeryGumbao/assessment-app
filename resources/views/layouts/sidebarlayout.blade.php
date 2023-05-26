@@ -84,6 +84,20 @@
                 @yield('content')
             </div>
         </div>
+
+        <!-- Add the login/logout button -->
+        <div class="login-button">
+            @auth
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <button type="submit" class="btn">Logout</button>
+                </form>
+            @else
+                <a href="{{ route('login') }}" class="btn">Login</a>
+            @endauth
+        </div>
+
+        
     </body>
 
 <script>

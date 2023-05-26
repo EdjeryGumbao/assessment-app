@@ -2,6 +2,8 @@
 
 <head>
     <style>
+/*The css is here to ensure that the hidden form works
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
